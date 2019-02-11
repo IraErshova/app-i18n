@@ -5,4 +5,5 @@ export interface Tariff {
   storage: number;
   support: number;
   helpCenter: boolean;
+  type: number;
 }
