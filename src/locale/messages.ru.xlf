@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="ed1341869cf9cb7017821057cb99854bb6ac9130" datatype="html">
+        <source>Company name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      <target>Название компании</target></trans-unit>
+      <trans-unit id="6cdb1fea93d77c07950c0c76c6e0ad79ebbef084" datatype="html">
+        <source>Features</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      <target>Особенности</target></trans-unit>
+      <trans-unit id="47658bc95e211b91814febd224da550ae3df5521" datatype="html">
+        <source>Enterprise</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      <target>Компания</target></trans-unit>
+      <trans-unit id="b5629d298ff1a69b8db19a4ba2995c76b52da604" datatype="html">
+        <source>Support</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      <target>Служба поддержики</target></trans-unit>
+      <trans-unit id="b051eeff3ae30cba4fbd1885ebb58fc22fb0d587" datatype="html">
+        <source>Pricing</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      <target>Цена</target></trans-unit>
+      <trans-unit id="fe46ccaae902ce974e2441abe752399288298619" datatype="html">
+        <source>Language</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      <target>Язык</target></trans-unit>
+      <trans-unit id="c40c132843f349c3aa49730405de1d0ca733aef6" datatype="html">
+        <source>Sign up</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      <target>Войти</target></trans-unit>
+      <trans-unit id="6ef0619a37140118b9e640c6cc36ee4e9fb4372a" datatype="html">
+        <source>Company</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      <target>Компания</target></trans-unit>
+      <trans-unit id="22476aeaf378a8b2de38b1061c07c9b9f5e6e280" datatype="html">
+        <source>Cool stuff</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      <target>Приколяхи</target></trans-unit>
+      <trans-unit id="6c6475b106469dcc9b2384d5ea24479e40ea7928" datatype="html">
+        <source>Random feature</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      <target>Случайная фича</target></trans-unit>
+      <trans-unit id="e01745def517d50a3795d20d6dd8903fab760dd5" datatype="html">
+        <source>Team feature</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      <target>Командная фича</target></trans-unit>
+      <trans-unit id="a4826199c2cfe631cbe3765f871aba755eb2a551" datatype="html">
+        <source>Stuff for developers</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      <target>Приколяхи для девелоперов</target></trans-unit>
+      <trans-unit id="43f6b701344516cc3e3cc67afac409ddf6e6a55a" datatype="html">
+        <source>Another one</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      <target>Другие приколяхи</target></trans-unit>
+      <trans-unit id="b712d9ab0c5957bca2ca3a3ab569e86f5b479104" datatype="html">
+        <source>Last time</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      <target>Последнии новости</target></trans-unit>
+      <trans-unit id="452ef1b96854fe05618303ee601f8fed3b866c9f" datatype="html">
+        <source>Resources</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      <target>Источники</target></trans-unit>
+      <trans-unit id="ffde342dc48f0b074d3dbcbb2f665216a2dd3deb" datatype="html">
+        <source>Resource</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      <target>Источник</target></trans-unit>
+      <trans-unit id="b9d741bd913a31d659d2cef8a44f2fa0e334f972" datatype="html">
+        <source>Resource name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      <target>Название источника</target></trans-unit>
+      <trans-unit id="8bc087c9b932fc84d982fa71e10d0235f45c32c0" datatype="html">
+        <source>Another resource</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      <target>Другой источник</target></trans-unit>
+      <trans-unit id="deb85de088fb07a8b98b27133d8414b9ba0c6a5c" datatype="html">
+        <source>Final resource</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      <target>Конечный источник</target></trans-unit>
+      <trans-unit id="2da584b9eaface1e297ffc6dd1f762b6498eda37" datatype="html">
+        <source>Pricing</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">Title for home page</note>
+        <note priority="1" from="meaning">site header</note>
+      <target>Цена</target></trans-unit>
+      <trans-unit id="bec5dfad488f58e901691b562b244e0a62dec9ed" datatype="html">
+        <source>
+    Quickly build an effective pricing table for your potential
+    customers with this Bootstrap example. It’s built with default
+    Bootstrap components and utilities with little customization.
+  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      <target>Псевдо-латинский текст, который используется для веб дизайна, типографии, оборудования, и распечатки вместо английского текста для того, чтобы сделать ударение не на содержание, а на элементы дизайна. Такой текст также называется как заполнитель. </target></trans-unit>
+      <trans-unit id="9566c8c317d10897bb7a2c46a89366baa0417b64" datatype="html">
+        <source>mon</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      <target>месяц</target></trans-unit>
+       <trans-unit id="170a88cd3727df9de29dd2f4b415f81e60af0620" datatype="html">
+        <source><x id="ICU" equiv-text="{tariff.users, plural, =0 {...} =1 {...} other {...}}"/>
+        </source>
+        <target><x id="ICU" equiv-text="{tariff.users, plural, =0 {...} =1 {...} other {...}}"/>
+                </target>
+    <context-group purpose="location">
+      <context context-type="sourcefile">app/home/home.component.html</context>
+        <context context-type="linenumber">22</context>
+      </context-group>
+      </trans-unit>
+      <trans-unit id="b357859e13eea3cb7ff551392474ad522536c436" datatype="html">
+        <source>{VAR_PLURAL, plural, =0 {No users} =1 {<x id="INTERPOLATION" equiv-text="{{tariff.users}}"/> user include} other {<x id="INTERPOLATION" equiv-text="{{tariff.users}}"/> users included} }</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      <target>{VAR_PLURAL, plural, =0 {Нет пользователей} =1 {<x id="INTERPOLATION" equiv-text="{{tariff.users}}"/> пользователь включен} other {<x id="INTERPOLATION" equiv-text="{{tariff.users}}"/> пользователей влючено} }</target></trans-unit>
+      <trans-unit id="06835d5be1cb98443bac7c40e3b546d29867e6cb" datatype="html">
+        <source>GB of storage</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      <target>GB хранилища</target></trans-unit>
+      <trans-unit id="2636eecde3848e8583d8e3bfff46f5c947335ebb" datatype="html">
+        <source>Help center access</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      <target>Служба поддержки</target></trans-unit>
+    </body>
+  </file>
+</xliff>
