@@ -148,44 +148,52 @@
         <note priority="1" from="description">Title for home page</note>
         <note priority="1" from="meaning">site header</note>
       </trans-unit>
-      <trans-unit id="5aee42a3ab6a6cda81edd3f49e01700b184105c8" datatype="html">
+      <trans-unit id="bec5dfad488f58e901691b562b244e0a62dec9ed" datatype="html">
         <source>
-    Quickly build an effective pricing table for your potential customers with this Bootstrap example.
-    It’s built with default Bootstrap components and utilities with little customization.
+    Quickly build an effective pricing table for your potential
+    customers with this Bootstrap example. It’s built with default
+    Bootstrap components and utilities with little customization.
   </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
           <context context-type="linenumber">4</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="c8634b3f12d66757a0b9eea7e55105506df49164" datatype="html">
+      <trans-unit id="9566c8c317d10897bb7a2c46a89366baa0417b64" datatype="html">
+        <source>mon</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="170a88cd3727df9de29dd2f4b415f81e60af0620" datatype="html">
         <source>
             <x id="ICU" equiv-text="{tariff.users, plural, =0 {...} =1 {...} other {...}}"/>
           </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">20</context>
+          <context context-type="linenumber">22</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3f48760b184b7854100353517e43cdd72f0ff85c" datatype="html">
-        <source>{VAR_PLURAL, plural, =0 {No users} =1 {<x id="INTERPOLATION" equiv-text="{{tariff.users}}"/> user included} other {<x id="INTERPOLATION" equiv-text="{{tariff.users}}"/> users included} }</source>
+      <trans-unit id="b357859e13eea3cb7ff551392474ad522536c436" datatype="html">
+        <source>{VAR_PLURAL, plural, =0 {No users} =1 {<x id="INTERPOLATION" equiv-text="{{tariff.users}}"/> user include} other {<x id="INTERPOLATION" equiv-text="{{tariff.users}}"/> users included} }</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">21</context>
+          <context context-type="linenumber">23</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="21bfedada137eccf822c34f43f9d7ef9093b3ccb" datatype="html">
-        <source><x id="INTERPOLATION" equiv-text="{{ tariff.storage }}"/> GB of storage</source>
+      <trans-unit id="06835d5be1cb98443bac7c40e3b546d29867e6cb" datatype="html">
+        <source>GB of storage</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">26</context>
+          <context context-type="linenumber">28</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2636eecde3848e8583d8e3bfff46f5c947335ebb" datatype="html">
         <source>Help center access</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">28</context>
+          <context context-type="linenumber">30</context>
         </context-group>
       </trans-unit>
     </body>
