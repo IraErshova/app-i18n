@@ -34,6 +34,15 @@
             "scripts": []
           },
           "configurations": {
+            "ru": {
+              "aot": true,
+              "optimization": true,
+              "buildOptimizer": true,
+              "outputPath": "dist/app-i18n-ru/",
+              "i18nFile": "src/locale/messages.ru.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "ru"
+            },
             "production": {
               "fileReplacements": [
                 {
@@ -68,6 +77,9 @@
           "configurations": {
             "production": {
               "browserTarget": "app-i18n:build:production"
+            },
+            "ru": {
+              "browserTarget": "app-i18n:build:ru"
             }
           }
         },
