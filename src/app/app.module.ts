@@ -24,7 +24,7 @@ registerLocaleData(localeRu);
     SupportPipe
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({appId: 'my-app'}),
     AppRoutingModule,
     BsDropdownModule.forRoot()
   ],

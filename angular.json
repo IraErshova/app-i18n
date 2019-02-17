@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/app-i18n",
+            "outputPath": "dist/browser/en/",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -34,17 +34,7 @@
             "scripts": []
           },
           "configurations": {
-            "ru": {
-              "aot": true,
-              "optimization": true,
-              "buildOptimizer": true,
-              "outputPath": "dist/app-i18n-ru/",
-              "i18nFile": "src/locale/messages.ru.xlf",
-              "i18nFormat": "xlf",
-              "i18nLocale": "ru",
-              "baseHref": "/ru/"
-            },
-            "production": {
+            "production-ru": {
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
@@ -66,6 +56,36 @@
                   "maximumWarning": "2mb",
                   "maximumError": "5mb"
                 }
+              ],
+              "outputPath": "dist/browser/ru/",
+              "i18nFile": "src/locale/messages.ru.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "ru",
+              "baseHref": "/ru/"
+            },
+            "production-en": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "aot": true,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
+              "baseHref": "/en/",
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
+                }
               ]
             }
           }
@@ -77,10 +97,10 @@
           },
           "configurations": {
             "production": {
-              "browserTarget": "app-i18n:build:production"
+              "browserTarget": "app-i18n:build:production-en"
             },
             "ru": {
-              "browserTarget": "app-i18n:build:ru"
+              "browserTarget": "app-i18n:build:production-ru"
             }
           }
         },
@@ -120,6 +140,24 @@
               "**/node_modules/**"
             ]
           }
+        },
+        "server": {
+          "builder": "@angular-devkit/build-angular:server",
+          "options": {
+            "outputPath": "dist/server",
+            "main": "src/main.server.ts",
+            "tsConfig": "src/tsconfig.server.json"
+          },
+          "configurations": {
+            "production": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+                }
+              ]
+            }
+          }
         }
       }
     },
@@ -136,7 +174,7 @@
           },
           "configurations": {
             "production": {
-              "devServerTarget": "app-i18n:serve:production"
+              "devServerTarget": "app-i18n:serve:production-en"
             }
           }
         },

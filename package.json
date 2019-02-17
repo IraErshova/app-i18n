@@ -7,7 +7,13 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "build:client-and-server-bundles-i18n": "ng run app-i18n:build:production-en && ng run app-i18n:build:production-ru && ng run app-i18n:server:production",
+    "build:client-and-server-bundles": "ng build --prod && ng run app-i18n:server:production-en",
+    "build:ssr": "npm run build:client-and-server-bundles && npm run compile:server",
+    "build:i18n-ssr": "npm run build:client-and-server-bundles-i18n && npm run compile:server",
+    "compile:server": "tsc -p server.tsconfig.json",
+    "serve:ssr": "node dist/server"
   },
   "private": true,
   "dependencies": {
@@ -19,9 +25,14 @@
     "@angular/http": "~7.0.0",
     "@angular/platform-browser": "~7.0.0",
     "@angular/platform-browser-dynamic": "~7.0.0",
+    "@angular/platform-server": "^7.2.5",
     "@angular/router": "~7.0.0",
+    "@nguniversal/common": "^7.1.0",
+    "@nguniversal/express-engine": "^7.1.0",
+    "@nguniversal/module-map-ngfactory-loader": "^7.1.0",
     "bootstrap": "^4.2.1",
     "core-js": "^2.5.4",
+    "express": "^4.16.4",
     "ngx-bootstrap": "^3.1.4",
     "rxjs": "~6.3.3",
     "zone.js": "~0.8.26"
