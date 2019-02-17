@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { LOCALE_ID, NgModule } from '@angular/core';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -9,6 +9,10 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { TariffButtonPipe } from './pipes/tariff-button.pipe';
 import { SupportPipe } from './pipes/support.pipe';
+import { registerLocaleData } from '@angular/common';
+import localeRu from '@angular/common/locales/ru';
+
+registerLocaleData(localeRu);
 
 @NgModule({
   declarations: [
@@ -24,7 +28,7 @@ import { SupportPipe } from './pipes/support.pipe';
     AppRoutingModule,
     BsDropdownModule.forRoot()
   ],
-  providers: [],
+  providers: [{ provide: LOCALE_ID, useValue: 'ru' }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
