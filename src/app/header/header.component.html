@@ -1,10 +1,10 @@
 <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-  <h5 class="my-0 mr-md-auto font-weight-normal">Company name</h5>
+  <h5 class="my-0 mr-md-auto font-weight-normal" i18n>Company name</h5>
   <nav class="my-2 my-md-0 mr-md-3">
-    <a class="p-2 text-dark" href="#">Features</a>
-    <a class="p-2 text-dark" href="#">Enterprise</a>
-    <a class="p-2 text-dark" href="#">Support</a>
-    <a class="p-2 text-dark" href="#">Pricing</a>
+    <a class="p-2 text-dark" href="#" i18n>Features</a>
+    <a class="p-2 text-dark" href="#" i18n>Enterprise</a>
+    <a class="p-2 text-dark" href="#" i18n>Support</a>
+    <a class="p-2 text-dark" href="#" i18n>Pricing</a>
   </nav>
   <div class="btn-group mr-3" dropdown>
     <button id="button-basic"
@@ -12,6 +12,7 @@
             type="button"
             class="btn btn-primary dropdown-toggle"
             aria-controls="dropdown-basic">
+      <ng-container i18n>Language</ng-container>
       Language <span class="caret"></span>
     </button>
     <ul id="dropdown-basic"
@@ -23,5 +24,5 @@
       <li role="menuitem"><a class="dropdown-item" href="#">Русский</a></li>
     </ul>
   </div>
-  <a class="btn btn-outline-primary" href="#">Sign up</a>
+  <a class="btn btn-outline-primary" href="#" i18n>Sign up</a>
 </div>

@@ -3,7 +3,7 @@ import { Tariff } from './interfaces/tariff.interface';
 export const tariffsMock: Tariff[] = [{
   title: 'Free',
   price: 0,
-  users: 1,
+  users: 0,
   storage: 2,
   support: 1,
   helpCenter: true,
@@ -11,7 +11,7 @@ export const tariffsMock: Tariff[] = [{
 }, {
   title: 'Pro',
   price: 15,
-  users: 20,
+  users: 1,
   storage: 5,
   support: 2,
   helpCenter: true,
