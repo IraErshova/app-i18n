@@ -16,7 +16,7 @@
       <div class="card-body">
         <h1 class="card-title pricing-card-title">
           {{ tariff.price | currency }}
-          <small class="text-muted">/ <ng-content i18n>mon</ng-content></small>
+          <small class="text-muted">/ <ng-container i18n>mon</ng-container></small>
         </h1>
         <ul class="list-unstyled mt-3 mb-4">
           <li i18n>
@@ -25,7 +25,7 @@
               =1 {{{tariff.users}} user include}
               other {{{tariff.users}} users included}}
           </li>
-          <li>{{ tariff.storage }} <ng-content i18n>GB of storage</ng-content></li>
+          <li>{{ tariff.storage }} <ng-container i18n>GB of storage</ng-container></li>
           <li>{{ tariff.support | support }}</li>
           <li *ngIf="tariff.helpCenter" i18n>Help center access</li>
         </ul>
