@@ -1,10 +1,10 @@
 <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-  <h5 class="my-0 mr-md-auto font-weight-normal">Company name</h5>
+  <h5 class="my-0 mr-md-auto font-weight-normal">{{ 'HEADER.company_name' | translate }}</h5>
   <nav class="my-2 my-md-0 mr-md-3">
-    <a class="p-2 text-dark" href="#">Features</a>
-    <a class="p-2 text-dark" href="#">Enterprise</a>
-    <a class="p-2 text-dark" href="#">Support</a>
-    <a class="p-2 text-dark" href="#">Pricing</a>
+    <a class="p-2 text-dark" href="#">{{ 'HEADER.features' | translate }}</a>
+    <a class="p-2 text-dark" href="#">{{ 'HEADER.enterprise' | translate }}</a>
+    <a class="p-2 text-dark" href="#">{{ 'HEADER.support' | translate }}</a>
+    <a class="p-2 text-dark" href="#">{{ 'HEADER.pricing' | translate }}</a>
   </nav>
   <div class="btn-group mr-3" dropdown>
     <button id="button-basic"
@@ -19,8 +19,8 @@
         class="dropdown-menu"
         role="menu"
         aria-labelledby="button-basic">
-      <li role="menuitem"><a class="dropdown-item" href="#">English</a></li>
-      <li role="menuitem"><a class="dropdown-item" href="#">Русский</a></li>
+      <li role="menuitem"><a class="dropdown-item" (click)="changeLanguage('en')">English</a></li>
+      <li role="menuitem"><a class="dropdown-item" (click)="changeLanguage('ru')">Русский</a></li>
     </ul>
   </div>
   <a class="btn btn-outline-primary" href="#">Sign up</a>

@@ -1,0 +1,15 @@
+{
+  "HEADER": {
+    "company_name": "Company name",
+    "features": "Features",
+    "enterprise": "Enterprise",
+    "support": "Support",
+    "pricing": "Pricing"
+  },
+  "FOOTER": {
+
+  },
+  "HOME": {
+
+  }
+}

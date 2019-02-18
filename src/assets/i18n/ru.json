@@ -1,0 +1,15 @@
+{
+  "HEADER": {
+    "company_name": "Название компании",
+    "features": "Фичи",
+    "enterprise": "Энтерпрайс",
+    "support": "Служба поддержки",
+    "pricing": "Цена"
+  },
+  "FOOTER": {
+
+  },
+  "HOME": {
+
+  }
+}
