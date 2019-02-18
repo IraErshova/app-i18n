@@ -8,12 +8,14 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
+    "build:nossr": "ng build --configuration=production-en && ng build --configuration=production-ru",
+    "serve:nossr": "node server-nossr.js",
+    "start:nossr": "npm run build:nossr && npm run serve:nossr",
     "build:client-and-server-bundles-i18n": "ng run app-i18n:build:production-en && ng run app-i18n:build:production-ru && ng run app-i18n:server:production",
-    "build:client-and-server-bundles": "ng build --prod && ng run app-i18n:server:production-en",
-    "build:ssr": "npm run build:client-and-server-bundles && npm run compile:server",
-    "build:i18n-ssr": "npm run build:client-and-server-bundles-i18n && npm run compile:server",
     "compile:server": "tsc -p server.tsconfig.json",
-    "serve:ssr": "node dist/server"
+    "build:ssr": "npm run build:client-and-server-bundles-i18n && npm run compile:server",
+    "serve:ssr": "node dist/server",
+    "start:ssr": "npm run build:ssr && npm run serve:ssr"
   },
   "private": true,
   "dependencies": {
