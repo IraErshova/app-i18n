@@ -4,10 +4,36 @@
     "features": "Features",
     "enterprise": "Enterprise",
     "support": "Support",
-    "pricing": "Pricing"
+    "pricing": "Pricing",
+    "language": "Language",
+    "sign_up": "Sign up"
+
   },
   "FOOTER": {
-
+    "Company": "Company",
+    "FEATURES": {
+      "title": "Features",
+      "cool_stuff": "Cool stuff",
+      "random_feature": "Random feature",
+      "team_feature": "Team feature",
+      "stuff_for_developers": "Stuff for developers",
+      "another_one": "Another one",
+      "last_time": "Last time"
+    },
+    "RESOURCES": {
+      "title": "Resources",
+      "resource": "Resource",
+      "resource_name": "Resource name",
+      "another_resource": "Another resource",
+      "final_resource": "Final resource"
+    },
+    "ABOUT": {
+      "title": "About",
+      "team": "Team",
+      "locations": "Locations",
+      "privacy": "Privacy",
+      "terms": "Terms"
+    }
   },
   "HOME": {
 

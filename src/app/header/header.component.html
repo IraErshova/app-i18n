@@ -12,7 +12,7 @@
             type="button"
             class="btn btn-primary dropdown-toggle"
             aria-controls="dropdown-basic">
-      Language <span class="caret"></span>
+      {{ 'HEADER.language' | translate }} <span class="caret"></span>
     </button>
     <ul id="dropdown-basic"
         *dropdownMenu
@@ -23,5 +23,5 @@
       <li role="menuitem"><a class="dropdown-item" (click)="changeLanguage('ru')">Русский</a></li>
     </ul>
   </div>
-  <a class="btn btn-outline-primary" href="#">Sign up</a>
+  <a class="btn btn-outline-primary" href="#">{{ 'HEADER.sign_up' | translate }}</a>
 </div>
