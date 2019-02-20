@@ -9,32 +9,49 @@
     "sign_up": "Войти"
   },
   "FOOTER": {
-    "Company": "Company",
+    "Company": "Компания",
     "FEATURES": {
-      "title": "Features",
-      "cool_stuff": "Cool stuff",
-      "random_feature": "Random feature",
-      "team_feature": "Team feature",
-      "stuff_for_developers": "Stuff for developers",
-      "another_one": "Another one",
-      "last_time": "Last time"
+      "title": "Фичи",
+      "cool_stuff": "Приколяхи",
+      "random_feature": "Случайная фича",
+      "team_feature": "Командная фича",
+      "stuff_for_developers": "Приколяхи для девов",
+      "another_one": "Другое",
+      "last_time": "Последние новости"
     },
     "RESOURCES": {
-      "title": "Resources",
-      "resource": "Resource",
-      "resource_name": "Resource name",
-      "another_resource": "Another resource",
-      "final_resource": "Final resource"
+      "title": "Источники",
+      "resource": "Источник",
+      "resource_name": "Название источника",
+      "another_resource": "Другой источник",
+      "final_resource": "Последний источник"
     },
     "ABOUT": {
-      "title": "About",
-      "team": "Team",
-      "locations": "Locations",
-      "privacy": "Privacy",
-      "terms": "Terms"
+      "title": "О нас",
+      "team": "Команда",
+      "locations": "Расположения",
+      "privacy": "Публичность",
+      "terms": "Сроки"
     }
   },
   "HOME": {
+    "title": "Цена",
+    "description": "Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации Здесь ваш текст.",
+    "month": "месяц",
+    "help_access": "Служба поддержки",
+    "storage": "GB памяти",
+    "SUPPORT": {
+      "email": "Имейл поддержка",
+      "priority": "Супер имейл поддержка",
+      "phone": "Поддержка по телефону и имейлу",
+      "error": "Чет пошло не так"
 
+    },
+    "BUTTON": {
+      "free": "Регистрируйся нахаляву",
+      "start": "Поехали",
+      "contact": "Позвони нам",
+      "error": "Чет пошло не так"
+    }
   }
 }

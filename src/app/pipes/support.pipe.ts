@@ -1,21 +1,24 @@
 import { Pipe, PipeTransform } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
+import { Observable } from 'rxjs';
 
 @Pipe({
   name: 'support'
 })
 export class SupportPipe implements PipeTransform {
+  constructor(private translate: TranslateService) {}
 
-  transform(type: number, args?: any): string {
+  transform(type: number, args?: any): Observable<string> {
     switch (type) {
       case 1:
-        return 'Email support';
+        return this.translate.get('HOME.SUPPORT.email');
       case 2:
-        return 'Priority email support';
+        return this.translate.get('HOME.SUPPORT.priority');
       case 3:
-        return 'Phone and email support';
+        return this.translate.get('HOME.SUPPORT.phone');
 
       default:
-        return 'Error';
+        return this.translate.get('HOME.SUPPORT.error');
     }
   }
 

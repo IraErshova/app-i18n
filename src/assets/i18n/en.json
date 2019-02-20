@@ -36,6 +36,22 @@
     }
   },
   "HOME": {
-
+    "title": "Pricing",
+    "description": "Quickly build an effective pricing table for your potential customers with this Bootstrap example.\n    It’s built with default Bootstrap components and utilities with little customization.",
+    "month": "mon",
+    "help_access": "Help center access",
+    "storage": "GB of storage",
+    "SUPPORT": {
+      "email": "Email support",
+      "priority": "Priority email support",
+      "phone": "Phone and email support",
+      "error": "Error"
+    },
+    "BUTTON": {
+      "free": "Sign up for free",
+      "start": "Get started",
+      "contact": "Contact us",
+      "error": "Error"
+    }
   }
 }
